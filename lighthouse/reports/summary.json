@@ -1,0 +1,256 @@
+{
+  "generatedAt": "2026-10-16T00:20:14.756Z",
+  "baseUrl": "http://localhost:4174",
+  "tools": {
+    "lighthouse": "13.5.0",
+    "chrome": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/141.0.0.0 Safari/537.36",
+    "node": "v22.22.0"
+  },
+  "environment": {
+    "os": "Linux 6.18.44-fc-v114 (x64)",
+    "cpus": "2× Intel(R) Xeon(R) Processor @ 2.80GHz",
+    "memoryGb": 8,
+    "conditions": "Build de produção (vite build) servido por vite preview; cenário padrão dos mocks (MSW + Socket.IO); perfil de navegador limpo por medição; throttling simulado do Lighthouse."
+  },
+  "runsPerPage": 3,
+  "targets": {
+    "performance": 90,
+    "accessibility": 95,
+    "best-practices": 95,
+    "seo": 90
+  },
+  "results": [
+    {
+      "profile": "mobile",
+      "page": "inicio",
+      "path": "/",
+      "runs": [
+        {
+          "run": 1,
+          "scores": {
+            "performance": 71,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "lcpMs": 3955,
+          "cls": 0,
+          "tbtMs": 476,
+          "fcpMs": 2877,
+          "runWarnings": []
+        },
+        {
+          "run": 2,
+          "scores": {
+            "performance": 76,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "lcpMs": 3694,
+          "cls": 0,
+          "tbtMs": 374,
+          "fcpMs": 2790,
+          "runWarnings": []
+        },
+        {
+          "run": 3,
+          "scores": {
+            "performance": 78,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "lcpMs": 3920,
+          "cls": 0,
+          "tbtMs": 416,
+          "fcpMs": 1159,
+          "runWarnings": []
+        }
+      ],
+      "median": {
+        "performance": 76,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100,
+        "lcpMs": 3920,
+        "cls": 0,
+        "tbtMs": 416
+      }
+    },
+    {
+      "profile": "mobile",
+      "page": "detalhe",
+      "path": "/nft/emerald-ape-042",
+      "runs": [
+        {
+          "run": 1,
+          "scores": {
+            "performance": 76,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "lcpMs": 4022,
+          "cls": 0,
+          "tbtMs": 288,
+          "fcpMs": 2843,
+          "runWarnings": []
+        },
+        {
+          "run": 2,
+          "scores": {
+            "performance": 78,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "lcpMs": 3691,
+          "cls": 0,
+          "tbtMs": 319,
+          "fcpMs": 2704,
+          "runWarnings": []
+        },
+        {
+          "run": 3,
+          "scores": {
+            "performance": 77,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "lcpMs": 3980,
+          "cls": 0,
+          "tbtMs": 291,
+          "fcpMs": 2776,
+          "runWarnings": []
+        }
+      ],
+      "median": {
+        "performance": 77,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100,
+        "lcpMs": 3980,
+        "cls": 0,
+        "tbtMs": 291
+      }
+    },
+    {
+      "profile": "desktop",
+      "page": "inicio",
+      "path": "/",
+      "runs": [
+        {
+          "run": 1,
+          "scores": {
+            "performance": 100,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "lcpMs": 761,
+          "cls": 0,
+          "tbtMs": 9,
+          "fcpMs": 482,
+          "runWarnings": []
+        },
+        {
+          "run": 2,
+          "scores": {
+            "performance": 99,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "lcpMs": 805,
+          "cls": 0,
+          "tbtMs": 24,
+          "fcpMs": 623,
+          "runWarnings": []
+        },
+        {
+          "run": 3,
+          "scores": {
+            "performance": 99,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "lcpMs": 766,
+          "cls": 0,
+          "tbtMs": 10,
+          "fcpMs": 603,
+          "runWarnings": []
+        }
+      ],
+      "median": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100,
+        "lcpMs": 766,
+        "cls": 0,
+        "tbtMs": 10
+      }
+    },
+    {
+      "profile": "desktop",
+      "page": "detalhe",
+      "path": "/nft/emerald-ape-042",
+      "runs": [
+        {
+          "run": 1,
+          "scores": {
+            "performance": 99,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "lcpMs": 840,
+          "cls": 0,
+          "tbtMs": 0,
+          "fcpMs": 615,
+          "runWarnings": []
+        },
+        {
+          "run": 2,
+          "scores": {
+            "performance": 99,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "lcpMs": 864,
+          "cls": 0,
+          "tbtMs": 0,
+          "fcpMs": 607,
+          "runWarnings": []
+        },
+        {
+          "run": 3,
+          "scores": {
+            "performance": 99,
+            "accessibility": 100,
+            "best-practices": 100,
+            "seo": 100
+          },
+          "lcpMs": 862,
+          "cls": 0,
+          "tbtMs": 23,
+          "fcpMs": 595,
+          "runWarnings": []
+        }
+      ],
+      "median": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100,
+        "lcpMs": 862,
+        "cls": 0,
+        "tbtMs": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Kurio — Marketplace de NFTs</title>
+    <meta name="description" content="Kurio: descubra, colecione e compre NFTs selecionados de criadores emergentes e consagrados. Arte digital rara, verificada e com procedência na rede." />
+    <meta name="theme-color" content="#140d0a" />
+    <meta property="og:title" content="Kurio — Marketplace de NFTs" />
+    <meta property="og:description" content="Seja dono do futuro da arte digital." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/images/emerald-440.webp" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preload" as="image" href="/images/emerald-440.webp" imagesrcset="/images/emerald-256.webp 256w, /images/emerald-440.webp 440w" imagesizes="(min-width: 768px) 450px, 45vw" fetchpriority="high" />
+    <style>
+      /* app shell: marca visível antes do JavaScript (substituída pelo React ao montar) */
+      html, body { margin: 0; background: #140d0a; color: #f8f3ec; }
+      .boot-shell { max-width: 1200px; margin: 0 auto; padding: 0 1rem; }
+      .boot-bar { height: 74px; display: flex; align-items: center; border-bottom: 1px solid #432c1a; font: 700 14px/1 ui-monospace, 'Courier New', monospace; letter-spacing: 0.12em; }
+      @media (min-width: 1280px) { .boot-shell { padding: 0; } }
+    </style>
+  </head>
+  <body>
+    <div id="root"><div class="boot-shell" aria-hidden="true"><div class="boot-bar">KURIO</div></div></div>
+    <noscript>A Kurio precisa de JavaScript para funcionar.</noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

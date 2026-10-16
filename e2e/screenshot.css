@@ -1,0 +1,5 @@
+/* elementos voláteis escondidos nas comparações visuais */
+[data-testid='mock-panel-toggle'],
+[data-sonner-toaster] {
+  visibility: hidden !important;
+}
